@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import './index.css'
+import React, { Component } from 'react';
+import { Header } from './components/Header';
 
-function App() {
-  return (
-    <div className="App bg-pink-600">
-      <h1 className='text-3xl font-bold underline bg-purple-400'>Heading one</h1>
-    </div>
-  )
+
+export default class App extends Component {
+  render() {
+    return(
+      <Header />
+    );
+  }
 }
 
-export default App
